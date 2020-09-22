@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="utf-8">
+        <title>Personal Information Form</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+
+    <body>
+        <form action="CV.html" id="Ashform" class="info-form" method="post">
+            <h1 id = "app">Personal Information</h1>
+            <div class = "field">
+                <label for="first"><b>First Name </b></label>
+                <input type="text" id="first" name="fname" placeholder="First Name"required>
+            </div>
+            <br>
+            <div class = "field">
+                <label for="middle"><b>Middle Name </b></label>
+                <input type="text" id="middle" name="mname" placeholder="Middle Name" required>
+            </div>
+            <br>
+            <div class = "field">
+                <label for="last"><b>Last Name </b></label>
+                <input type="text" id="last" name="lname" placeholder="Last Name" required>
+            </div>
+            <br>
+            <div class = "field">
+                <label for="gender"><b>Gender </b></label>
+                <select name="gender" value="gender">
+                    <option name="male">Male</option>
+                    <option name="female">Female</option>
+                </select>
+            </div>
+            <br>
+            <div class = "field">
+                <label for="phonenum"><b>Phone Number </b></label>
+                <input type="text" id="phonenum" name="phonenum" placeholder="Phone Number" required>
+            </div>
+            <br>
+            <div class = "field">
+                <label for="email"><b>Email </b></label>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+            <br>
+            <div class = "field">
+                <label for="address"><b>Address </b></label>
+                <input type="text" id="address" name="address" placeholder="Address" required>
+            </div>
+            <br>
+            <div class ="field">
+                <button id="submit" type="submit" value="click" onclick="store()"><b>Submit</b></button>
+            </div>   
+        </form>
+        <script src="form.js"></script>
+    </body>
+</html>

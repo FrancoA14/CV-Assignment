@@ -1,0 +1,36 @@
+body{
+    font-family: Verdana;
+}
+
+.top{
+    text-align: center;
+    font-family: Verdana;
+
+}
+
+P{
+    font-family: Verdana;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+h3{
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+hr{
+    width: 100%;
+    height: 2px;
+    background: black;
+}
+li{
+    font-family: Verdana;
+}
